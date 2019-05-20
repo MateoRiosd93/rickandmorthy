@@ -1,0 +1,33 @@
+/* BUENAS PRACTICAS CSS */
+*{
+    box-sizing: border-box;
+}
+
+html,
+body{
+    margin: 0;
+    padding: 0;
+
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+/* Paleta de colores y fuentes para nuesta app  */
+:root{
+    --font-title: 'Shadows Into Light Two', cursive;
+    --font-text: 'Roboto Condensed', sans-serif;
+
+    --color-yellow: #f9fd50;
+    --color-green: #85ef47;
+    --color-green2: #00bd56;
+    --color-blue: #207dff;
+}
+
+/* style sheet for our app */
+
+.div-main{
+    width: 100%;
+
+}

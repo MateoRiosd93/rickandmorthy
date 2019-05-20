@@ -1,0 +1,65 @@
+/* Paleta de colores y fuentes para la app  */
+:root{
+    --font-title: 'Shadows Into Light Two', cursive;
+    --font-text: 'Roboto Condensed', sans-serif;
+    
+    --color-yellow: #f9fd50;
+    --color-green: #85ef47;
+    --color-green2: #00bd56;
+    --color-blue: #207dff;
+}
+
+/* style sheet for our app */
+
+.div-header{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid white;
+    padding-bottom: 1rem;
+}
+
+.img-api{
+    width: 200px;
+    border-radius: 100px;
+    border: 8px solid var(--color-yellow);
+    margin: 0.5rem;
+}
+
+.title-header{
+    font-family: var(--font-title);
+    font-size: 65px;
+    color: white;
+}
+
+.year-header{
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+.div-siguenos{
+    display: flex;
+}
+
+.div-siguenos a{
+    margin-left: 0.5rem;
+    width: 50px;
+    height: 50px;
+}
+
+.siguenos{
+    padding: 0.5rem 0.5rem;
+    font-size: 35px;
+    background-color: var(--color-green);
+    color: var(--color-green2);
+    text-decoration: none;
+    border-radius: 80px;
+}
+
+.siguenos:hover{
+    background: var(--color-green2);
+    color: var(--color-green);
+    transition: 3seg;
+}
+

@@ -1,0 +1,36 @@
+/* Paleta de colores y fuentes para la app  */
+:root{
+    --font-title: 'Shadows Into Light Two', cursive;
+    --font-text: 'Roboto Condensed', sans-serif;
+    
+    --color-yellow: #f9fd50;
+    --color-green: #85ef47;
+    --color-green2: #00bd56;
+    --color-blue: #207dff;
+}
+
+/* style sheet for our component personaje.js */
+
+.div-personaje{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 230px;
+    margin: 0.5rem 0.5rem;
+    border: 2px solid yellow;
+    border-radius: 10px;
+}
+
+.img-personaje{
+    margin-top: 1rem;
+    width: 180px;
+    border-radius: 8px;
+}
+
+.name-personaje{
+    margin: 0;
+    text-align: center;
+    font-family: var(--font-text);
+    font-size: 30px;
+    color: var(--color-blue);
+}

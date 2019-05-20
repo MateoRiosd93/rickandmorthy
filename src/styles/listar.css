@@ -1,0 +1,21 @@
+/* Paleta de colores y fuentes para la app  */
+:root{
+    --font-title: 'Shadows Into Light Two', cursive;
+    --font-text: 'Roboto Condensed', sans-serif;
+    
+    --color-yellow: #f9fd50;
+    --color-green: #85ef47;
+    --color-green2: #00bd56;
+    --color-blue: #207dff;
+}
+
+/* style sheet for our component listar.js */
+
+.div-listar{
+    margin: 3rem 0 ;
+    padding: 0 0.5rem;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
