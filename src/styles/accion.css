@@ -36,7 +36,6 @@
     width: 400px;
     height: 30px;
     display: flex;
-    justify-content: start;
 }
 
 .input-action{

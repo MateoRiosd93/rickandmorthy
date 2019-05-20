@@ -33,7 +33,7 @@ export default class Main extends Component {
         return (
             <div className="div-main">
                 <Header title="Rick and Morty App" year={new Date().getFullYear()} />
-                <Accion />
+                <Accion items={items}/>
                 <Listar items={items}/>
             </div>
         )

@@ -24,7 +24,7 @@ export default function Header({title, year }) {
             </a>
             <a className="siguenos icon-youtube-play" 
                 href="https://www.youtube.com/channel/UCoje7QaPCDSMLaWy5wmcJ_w?view_as=subscriber">
-             </a>
+            </a>
         </div>
     </div>
   )
